@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background: url(/images/bg-desktop.svg)  no-repeat center;
+      background-color: hsla(228, 45%, 44%, 0.736);
+      margin: 2rem;
+      box-sizing: border-box;
+    }
+    .logo{
+     margin-left: 60px;
+     width: 200px;
+    }
+    .content{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 50px;
+    }
+    .image{
+      width: 600px;
+      height: 400px;
+      margin-right: 100px;
+    }
+    .content-text{
+      padding: 20px;   
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align:left;
+      margin-top: 40px;
+      margin-left: 35px;
+      color: white;
+    }
+    .content-text p{ 
+      font-size: large;
+    }
+    .content-text h1{
+      font-size: 40px;
+    }
+    .btn{
+      padding: 18px;
+      width: 180px;
+      font-size: large;
+      color: hsl(228, 45%, 44%);
+      border: 1px white solid;
+      border-radius: 50px;
+      text-align: center;
+      color: hsl(228, 45%, 44%);
+      background: white;
+    }
+    .btn:hover {
+      background: hsl(283, 57%, 61%);
+      color: white;
+      border: 1px hsl(283, 57%, 61%) solid;
+    }
+   
+  </style>
+</head>
+<body>
+<div class="logo">
+  <img src="/images/logo.svg" alt="" >
+</div>
+<div class="content">
+  <div class="image">
+    <img src="/images/illustration-mockups.svg" alt="">
+  </div>
+  <div class="content-text">
+    <h1>Build The Community <br> Your Fans Will Love</h1>
+    <p> Huddle re-imagines the way we build communities. You have <br> a voice, but so does your audience. 
+        Create connections with <br> your users as you engage in genuine discussion.</p>
+    <button class="btn">Register</button> 
+  </div>
+</div>
+
+</body>
+</html>
